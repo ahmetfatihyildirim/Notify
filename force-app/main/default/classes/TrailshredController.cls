@@ -25,5 +25,7 @@ public with sharing class TrailshredController {
                 Object_Name__r.QualifiedApiName = :objectApiName
         ];
         return ( Test.isRunningTest() && mockSettings != null ? mockSettings : settings );
+        //koşul ? koşulun gerçekleşme durumu : koşulun gerçekleşmeme durumu;
+        //condition ? exprIfTrue : exprIfFalse
     }
 }

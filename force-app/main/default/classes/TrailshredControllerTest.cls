@@ -18,7 +18,6 @@ private class TrailshredControllerTest {
 
         List<Trailshred_Setting__mdt> settings = TrailshredController.getSettings( 'Account' );
         System.assertEquals( 1, settings.size() );
-
         System.assertEquals( true, settings[0].Active__c );
         System.assertEquals( 'sounds/example.mp3', settings[0].Audio_Static_Resource_Path__c );
         System.assertEquals( 'Account', settings[0].Object_Name__c );

@@ -144,7 +144,6 @@ export default class TrailshredRecordForm extends NavigationMixin(LightningEleme
     }
 
     clearRecordCache() {
-        
         this.recordCache.length = 0;
     }
 
